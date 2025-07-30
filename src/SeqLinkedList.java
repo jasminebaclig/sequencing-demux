@@ -1,3 +1,6 @@
+/**
+ * LinkedList class used together with SeqNode to create a doubly linked list data structure.
+ */
 public class SeqLinkedList {
     private SeqNode head, tail;
     private int count;

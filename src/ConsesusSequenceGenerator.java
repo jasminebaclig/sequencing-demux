@@ -1,3 +1,6 @@
+/**
+ * Unfinished code.
+ */
 import java.io.*;
 
 public class ConsesusSequenceGenerator {

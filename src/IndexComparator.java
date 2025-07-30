@@ -1,3 +1,6 @@
+/**
+ * Consolidates entries of indeces that uses all variations for comparison.
+ */
 import java.io.*;
 import java.util.ArrayList;
 

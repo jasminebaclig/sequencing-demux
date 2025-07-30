@@ -1,3 +1,6 @@
+/**
+ * Extracts the index of all entries in a FASTQ file.
+ */
 import java.io.*;
 
 public class SequencingDemux {

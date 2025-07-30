@@ -1,3 +1,6 @@
+/**
+ * Consolidates entries of indeces that uses only the first variation for comparison.
+ */
 import java.io.*;
 
 public class IndexComparator_NoArray {

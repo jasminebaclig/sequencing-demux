@@ -27,5 +27,19 @@ public class ConsesusSequenceGenerator {
         return indexList;
     }
 
-    private static 
+    private static void makeConsensusSequence(SeqLinkedList indexList) {
+        SeqNode currNode = indexList.getHead();
+        String[] currIndexArray;
+        int currCount = 0;
+        String currConsensus = "";
+
+        while(currNode != null) {
+            currIndexArray = currNode.getIndex().split("\t");
+
+            for(int i = 0; i < currIndexArray[0].length(); i++) {
+                for(int j = 0; j < currIndexArray.length; j++) {
+                }
+            }
+        }
+    }
 }

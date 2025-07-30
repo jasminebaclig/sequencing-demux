@@ -1,12 +1,14 @@
 public class SeqNode {
     private SeqNode next, previous;
     private String index;
+    private String consensusSequence;
     private int count;
 
     public SeqNode(String index) {
         next = null;
         previous = null;
         this.index = index;
+        consensusSequence = "";
         count = 1;
     }
 
@@ -32,6 +34,14 @@ public class SeqNode {
 
     public void addIndex(String newIndex) {
         index = index + "\t" + newIndex;
+    }
+
+    public String getConsensusSequence() {
+        return consensusSequence;
+    }
+
+    public void setConsensusSequence(String sequence) {
+        consensusSequence = sequence;
     }
 
     public int getCount() {
